@@ -17,6 +17,8 @@ import {
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { DataTablesModule } from 'angular-datatables';
 import {MatTableModule} from '@angular/material/table';
+import { MatRadioModule } from '@angular/material/radio';
+// import {MatAutocompleteModule} from '@angular/material/autocomplete';
 @NgModule({
   imports: [
     BrowserAnimationsModule,
@@ -27,6 +29,8 @@ import {MatTableModule} from '@angular/material/table';
     ComponentsModule,
     RouterModule,
     MatTableModule,
+    MatRadioModule,
+    // MatAutocompleteModule,
     AppRoutingModule,
     AgmCoreModule.forRoot({
       apiKey: 'YOUR_GOOGLE_MAPS_API_KEY'

@@ -7,6 +7,7 @@ import { Injectable } from '@angular/core';
 export class CategoryService {
 
   baseUrl:string='http://supunsam-001-site1.btempurl.com/api/Category/'
+  // baseUrl:string='http://localhost:37912/api/Category/'
   constructor(private http:HttpClient) { }
 
   listCategories(){

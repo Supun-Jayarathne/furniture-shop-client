@@ -12,11 +12,13 @@ export const ROUTES: RouteInfo[] = [
     // { path: '/user-profile', title: 'User Profile',  icon:'person', class: '' },
     { path: '/category', title: 'Category List',  icon:'category', class: '' },
     { path: '/brand', title: 'Brand List',  icon:'branding_watermark', class: '' },
+    // { path: '/company', title: 'Company List',  icon:'book', class: '' },
     { path: '/product', title: 'Product List',  icon:'shopping_cart', class: '' },
-    { path: '/discount', title: 'Discount List',  icon:'local_offer', class: '' },
+    // { path: '/discount', title: 'Discount List',  icon:'local_offer', class: '' },
     { path: '/stock', title: 'Stock List',  icon:'local_offer', class: '' },
     { path: '/production', title: 'Production List',  icon:'local_offer', class: '' },
-    { path: '/monthlySummary', title: 'Monthly Summary Report',  icon:'book', class: '' }
+    { path: '/dailySummary', title: 'Daily Summary Report',  icon:'book', class: '' },
+    // { path: '/monthlySummary', title: 'Monthly Summary Report',  icon:'book', class: '' }
 ];
 
 @Component({
