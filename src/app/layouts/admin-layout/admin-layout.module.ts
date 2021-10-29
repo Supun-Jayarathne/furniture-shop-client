@@ -18,7 +18,9 @@ import { ProductComponent } from 'app/Product/product.component';
 import { DiscountComponent } from 'app/discount/discount.component';
 import { StockComponent } from 'app/stock/stock.component';
 import { ProductionComponent } from 'app/production/production.component';
-import { MonthlySummaryComponent } from 'app/monthlySummary/monthlySummary.component';
+// import { MonthlySummaryComponent } from 'app/monthlySummary/monthlySummary.component';
+// import { CompanyComponent } from 'app/company/company.component';
+import { DailySummaryComponent } from 'app/dailySummary/dailySummary.component';
 
 @NgModule({
   imports: [
@@ -40,9 +42,11 @@ import { MonthlySummaryComponent } from 'app/monthlySummary/monthlySummary.compo
     BrandComponent,
     ProductComponent,
     DiscountComponent,
+    // CompanyComponent,
     StockComponent,
     ProductionComponent,
-    MonthlySummaryComponent
+    // MonthlySummaryComponent,
+    DailySummaryComponent
   ]
 })
 
